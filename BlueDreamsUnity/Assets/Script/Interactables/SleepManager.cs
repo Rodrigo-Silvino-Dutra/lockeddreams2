@@ -53,7 +53,13 @@ public class SleepManager : MonoBehaviour, IInteractable
             fadeout.SetActive(false);
         }
 //Progression dreams 1, 2 and 3
-        if(ProgressionChart._instance.light >= 2)
+
+        if(ProgressionChart._instance.datacheck == true)
+        {
+            StartCoroutine(SLEEP1());
+            ProgressionChart._instance.datacheck = false;
+        }
+        if (ProgressionChart._instance.light >= 2)
         {
         StartCoroutine(SLEEP3());
         ProgressionChart._instance.light = 0;

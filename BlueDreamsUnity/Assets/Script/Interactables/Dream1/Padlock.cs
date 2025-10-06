@@ -11,17 +11,15 @@ public class Padlock : MonoBehaviour, IInteractable
     private int[] result, correctCombination;
     private bool isOpened;
     public Animator anim;
-    public GameObject [] wheels;
 
     private void Start()
     {
         
         originPosition = transform.position;
         result = new int[]{0,0,0};
-        correctCombination = new int[] {1,1,1};
+        correctCombination = new int[] {2,2,7};
         isOpened = false;
         Rotate.Rotated += CheckResults;
-        //GetComponent<dedede>().enabled = false;
     }
 
     private void CheckResults(string wheelName, int number)

@@ -54,7 +54,12 @@ IEnumerator WAKE1(){
     
     void Update()
     {
-        if(DivorcePaperManager.divorceviewed == true)
+        if (DrawKid.drawviewed == true)
+        {
+            StartCoroutine(WAKE1());
+            DrawKid.drawviewed = false;
+        }
+        if (DivorcePaperManager.divorceviewed == true)
         {
             StartCoroutine(WAKE3());
             DivorcePaperManager.divorceviewed = false;
