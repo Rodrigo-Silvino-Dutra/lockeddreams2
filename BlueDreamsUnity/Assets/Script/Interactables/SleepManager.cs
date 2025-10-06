@@ -31,7 +31,6 @@ public class SleepManager : MonoBehaviour, IInteractable
             yield return new WaitForSeconds(0.5f);
             fadein.SetActive(true);
             fadeout.SetActive(false);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
         }
         IEnumerator SLEEP2(){
             fadeout.SetActive(true); 
@@ -42,7 +41,6 @@ public class SleepManager : MonoBehaviour, IInteractable
             yield return new WaitForSeconds(0.5f);
             fadein.SetActive(true);
             fadeout.SetActive(false);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
         }
         IEnumerator SLEEP3(){
             fadeout.SetActive(true); 
@@ -53,15 +51,8 @@ public class SleepManager : MonoBehaviour, IInteractable
             yield return new WaitForSeconds(0.5f);
             fadein.SetActive(true);
             fadeout.SetActive(false);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
         }
-        //Progression dreams 1, 2 and 3
-
-        if (ProgressionChart._instance.datacheck == true)
-        {
-            StartCoroutine(SLEEP1());
-            ProgressionChart._instance.datacheck = false;
-        }
+//Progression dreams 1, 2 and 3
         if(ProgressionChart._instance.light >= 2)
         {
         StartCoroutine(SLEEP3());

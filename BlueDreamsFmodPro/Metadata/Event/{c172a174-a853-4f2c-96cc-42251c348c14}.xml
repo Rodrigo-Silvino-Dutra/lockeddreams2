@@ -93,7 +93,7 @@
 	<object class="MixerBusPanner" id="{7cd89808-88ee-4fbe-8b59-64e0d27742c9}" />
 	<object class="SingleSound" id="{935700d8-211b-4466-b667-533403e368ad}">
 		<property name="length">
-			<value>2</value>
+			<value>8.4000000000000004</value>
 		</property>
 		<property name="delayType">
 			<value>0</value>
@@ -133,7 +133,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>2</value>
+			<value>8.4000000000000004</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5589d5bb-63ac-4be8-8acf-3e81c269d8af}</destination>
