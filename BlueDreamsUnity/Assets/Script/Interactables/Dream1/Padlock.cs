@@ -68,7 +68,8 @@ public class Padlock : MonoBehaviour, IInteractable
         if (isOpened)
         {
             Destroy(gameObject);
-            anim.Play("ChestOppened"); 
+            anim.Play("ChestOppened");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Chest_Open", transform.position);
             player.GetComponent<PlayerController>().enabled = true;
         }
         else

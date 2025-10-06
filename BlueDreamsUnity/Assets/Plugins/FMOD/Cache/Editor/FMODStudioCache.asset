@@ -507,8 +507,12 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+<<<<<<< Updated upstream
   Length: 8400
 <<<<<<< Updated upstream
+=======
+  Length: 2000
+>>>>>>> Stashed changes
 --- !u!114 &-8277466477274422205
 =======
 --- !u!114 &-3393592289804862476
@@ -668,7 +672,7 @@ MonoBehaviour:
   Path: ../BlueDreamsFmodPro/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638953028222042480
+  lastModified: 638953133565204752
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -922,7 +926,7 @@ MonoBehaviour:
   Path: ../BlueDreamsFmodPro/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638953028222052481
+  lastModified: 638953133565214762
   FileSizes:
   - Name: Desktop
     Value: 1830
@@ -1114,7 +1118,11 @@ MonoBehaviour:
   - {fileID: 2265286234308351946}
 >>>>>>> Stashed changes
   cacheVersion: 131849
+<<<<<<< Updated upstream
   cacheTime: 638953113001363350
+=======
+  cacheTime: 638953133573233793
+>>>>>>> Stashed changes
   SerializableEventsDict:
   - key: event:/Chest_Open
     index: 0
@@ -1958,7 +1966,7 @@ MonoBehaviour:
   Path: ../BlueDreamsFmodPro/Build/Desktop/Room.bank
   Name: Room
   StudioPath: bank:/Room
-  lastModified: 638953028226987039
+  lastModified: 638953133573233793
   FileSizes:
   - Name: Desktop
     Value: 617568

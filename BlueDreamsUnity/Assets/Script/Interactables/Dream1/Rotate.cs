@@ -35,6 +35,7 @@ public class Rotate : MonoBehaviour, IInteractable
             yield return new WaitForSeconds(0.01f);
         }
 
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Padlock", transform.position);
         coroutineAllowed = true;
 
         numberShown += 1;

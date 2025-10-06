@@ -68,6 +68,7 @@ public class InputManager : MonoBehaviour
     {
         xzPlayer.x = valueMove.ReadValue<Vector2>().x;
         xzPlayer.y = valueMove.ReadValue<Vector2>().y;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Foot Step", transform.position);
     }
     public void OnMoveCameraEvent(InputAction.CallbackContext valueCamMove)
     {
