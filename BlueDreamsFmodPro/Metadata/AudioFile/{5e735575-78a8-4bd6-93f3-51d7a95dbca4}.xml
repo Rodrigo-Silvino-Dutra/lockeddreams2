@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5e735575-78a8-4bd6-93f3-51d7a95dbca4}">
+		<property name="assetPath">
+			<value>Clock.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>24.213333333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{65049221-749a-4b57-9089-1141970d0ba8}</destination>
+		</relationship>
+	</object>
+</objects>
