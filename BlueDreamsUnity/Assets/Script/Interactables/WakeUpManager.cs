@@ -43,6 +43,7 @@ IEnumerator WAKE1(){
             yield return new WaitForSeconds(0.5f);
             fadein.SetActive(true);
             fadeout.SetActive(false);
+            ProgressionChart._instance.dream3 = true;
             
         }
     void Start()
