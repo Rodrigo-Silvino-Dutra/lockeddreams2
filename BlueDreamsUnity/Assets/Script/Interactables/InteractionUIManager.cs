@@ -1,12 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 
 public class InteractionUIManager : MonoBehaviour
 {
     public static InteractionUIManager _instance;
     [SerializeField] private GameObject triggerReticlePointer;
-    [SerializeField] private GameObject textOfInteraction;
+    // [SerializeField] private GameObject textOfInteraction;
     void Awake()
     {
         if(_instance == null)_instance = this;
@@ -15,6 +13,6 @@ public class InteractionUIManager : MonoBehaviour
     public void TriggerCursor(bool state)
     {
         triggerReticlePointer.SetActive(state);
-        textOfInteraction.SetActive(state);
+        // textOfInteraction.SetActive(state);
     }
 }

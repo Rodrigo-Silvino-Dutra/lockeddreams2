@@ -54,16 +54,25 @@ IEnumerator WAKE1(){
     
     void Update()
     {
+<<<<<<< Updated upstream
         if (DrawKid.drawviewed == true)
         {
             StartCoroutine(WAKE1());
             DrawKid.drawviewed = false;
         }
         if (DivorcePaperManager.divorceviewed == true)
+=======
+        if (ProgressionDream2._instance.dream2Completed)
+>>>>>>> Stashed changes
         {
-            StartCoroutine(WAKE3());
-            DivorcePaperManager.divorceviewed = false;
+            StartCoroutine(WAKE2());
+            ProgressionDream2._instance.dream2Completed = false;
         }
+        if (DivorcePaperManager.divorceviewed == true)
+            {
+                StartCoroutine(WAKE3());
+                DivorcePaperManager.divorceviewed = false;
+            }
         StopCoroutine(WAKE1());
         StopCoroutine(WAKE2());
         StopCoroutine(WAKE3());

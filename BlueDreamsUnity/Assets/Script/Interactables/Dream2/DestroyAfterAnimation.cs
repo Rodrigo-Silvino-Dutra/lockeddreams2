@@ -2,10 +2,16 @@ using UnityEngine;
 
 public class DestroyAfterAnimation : MonoBehaviour
 {
-    [SerializeField] private GameObject keyToTheDoor;
     public void DestroySelf()
     {
         Destroy(gameObject);
-        keyToTheDoor.SetActive(true);
+    }
+    public void EndDream2()
+    {
+        ProgressionDream2._instance.dream2Completed = true;
+    }
+    public void PlayStarTrekSound()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SpaceShip_Lauching", transform.position);
     }
 }

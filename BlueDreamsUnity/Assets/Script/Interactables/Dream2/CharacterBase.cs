@@ -24,6 +24,7 @@ public class CharacterBase : MonoBehaviour, IInteractable
             starTrekDoll.SetParent(holdingObject, false);
             starTrekDoll.position = gameObject.transform.position;
             starTrekDoll.SetParent(gameObject.transform, true);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Put_Figure", transform.position);
             ProgressionDream2._instance.IsEveryThingInPlace();
         }
         ProgressionChart._instance.lastInteractable.Pop();

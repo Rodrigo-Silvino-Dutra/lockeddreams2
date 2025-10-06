@@ -64,6 +64,11 @@ public class SleepManager : MonoBehaviour, IInteractable
         StartCoroutine(SLEEP3());
         ProgressionChart._instance.light = 0;
         }
+        if (ProgressionChart._instance.SawLight)
+        {
+            StartCoroutine(SLEEP2());
+            ProgressionChart._instance.SawLight = false;
+        }
         
 
         StopCoroutine(SLEEP1());

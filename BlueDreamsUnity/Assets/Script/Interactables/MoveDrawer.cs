@@ -30,7 +30,7 @@ public class MoveDrawer : MonoBehaviour, IInteractable
     private void ToggleDrawer()
     {
         isOpen = !isOpen;
-
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Drawer", transform.position);
         if (currentCoroutine != null)
             StopCoroutine(currentCoroutine);
 

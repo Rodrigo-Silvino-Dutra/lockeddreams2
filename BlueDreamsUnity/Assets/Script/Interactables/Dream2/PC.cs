@@ -24,6 +24,7 @@ public class PC : MonoBehaviour, IInteractable
                 ProgressionDream2._instance.isHoldingCD = false;
                 screen.SetActive(true);
                 Data.SetActive(true);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Old_PC_turnOn", transform.position);
 
             }
         }

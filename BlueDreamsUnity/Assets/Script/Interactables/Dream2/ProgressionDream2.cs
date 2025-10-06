@@ -5,7 +5,7 @@ public class ProgressionDream2 : MonoBehaviour
     public Animator anim;
 
     public static ProgressionDream2 _instance;
-    public bool isholdingStarTrekCharacter, isHoldingCD, jupiterInPlace, starTrekPuzzleCompleted;
+    public bool isholdingStarTrekCharacter, isHoldingCD, jupiterInPlace, starTrekPuzzleCompleted, dream2Completed;
     public GameObject galileoPuzzle;
 
     public bool[] dollsPlaced = new bool[3];//data = 0; picard = 1; worf = 2;
@@ -13,6 +13,7 @@ public class ProgressionDream2 : MonoBehaviour
     {
         isholdingStarTrekCharacter = false;
         isHoldingCD = false;
+        dream2Completed = false;
         jupiterInPlace = false;
         starTrekPuzzleCompleted = false;
     }
