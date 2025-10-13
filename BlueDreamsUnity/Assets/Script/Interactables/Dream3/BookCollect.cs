@@ -22,7 +22,9 @@ public class BookCollect : MonoBehaviour, IInteractable
         Destroy(gameObject);
         Debug.Log("livros restantes:  " + booksremaining);
         ProgressionChart._instance.lastInteractable.Pop();
-        };
+        FMODUnity.RuntimeManager.PlayOneShot("event:/CatchBook", transform.position);
+        }
+        ;
     }
 
 

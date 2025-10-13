@@ -27,6 +27,7 @@ public class Rotate : MonoBehaviour, IInteractable
 
     private IEnumerator RotateWheel()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Padlock", transform.position);
         coroutineAllowed = false;
 
         for (int i = 0; i <= 11; i++)

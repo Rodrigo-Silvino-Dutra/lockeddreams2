@@ -17,8 +17,9 @@ public class LightSwitch : MonoBehaviour, IInteractable
 
     public void OnInteract()
     {
-        if (!active)
+        if (!active && ProgressionChart._instance.dream2 == true)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Switch", transform.position);
             light.SetActive(!light.activeSelf);
             active = true;
             ProgressionChart._instance.light++;

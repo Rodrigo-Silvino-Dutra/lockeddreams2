@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveCam : MonoBehaviour
 {
-    private float mouseSensitivity = 10f;
+    private float mouseSensitivity = 50f;
 
     [SerializeField] private Transform player;
     private Vector2 mouseXY;
@@ -12,7 +12,7 @@ public class MoveCam : MonoBehaviour
 
     void Start()
     {
-        // Cursor.lockState = CursorLockMode.Locked;
+
     }
    
     void FixedUpdate()

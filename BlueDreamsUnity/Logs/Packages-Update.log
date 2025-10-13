@@ -1,0 +1,12 @@
+
+=== Mon Oct  6 02:43:11 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@4.4.2
+  com.unity.analytics@3.6.12
+  com.unity.purchasing@4.9.3
+  com.unity.xr.legacyinputhelpers@2.1.11

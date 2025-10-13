@@ -18,6 +18,7 @@ public class puzzle3 : MonoBehaviour, IInteractable
     public void OnInteract()
     {
         IEnumerator PUZZLE3(){
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Puting_Book", transform.position);
             fadeout.SetActive(true); 
             fadein.SetActive(false);
             yield return new WaitForSeconds(4f);

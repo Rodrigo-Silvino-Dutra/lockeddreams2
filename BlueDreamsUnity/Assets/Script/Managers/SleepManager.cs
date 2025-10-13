@@ -1,0 +1,87 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SleepManager : MonoBehaviour, IInteractable
+{
+    [SerializeField] public GameObject fadeout;
+    [SerializeField] public GameObject fadein;
+    [SerializeField] public GameObject reallife;
+    [SerializeField] public GameObject dream1;
+    [SerializeField] public GameObject dream2;
+    [SerializeField] public GameObject dream3;
+    [SerializeField] public Material matDream1;
+    [SerializeField] public Material matDream2;
+    [SerializeField] public Material matDream3;
+    public void OnFocusEnter()
+    {
+
+    }
+
+    public void OnFocusExit()
+    {
+
+    }
+
+    public void OnInteract()
+    {
+        IEnumerator SLEEP1(){
+            fadeout.SetActive(true); 
+            fadein.SetActive(false);
+            yield return new WaitForSeconds(5f);
+            reallife.SetActive(false);
+            RenderSettings.skybox = matDream1;
+            dream1.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            fadein.SetActive(true);
+            fadeout.SetActive(false);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
+        }
+        IEnumerator SLEEP2(){
+            fadeout.SetActive(true); 
+            fadein.SetActive(false);
+            yield return new WaitForSeconds(5f);
+            reallife.SetActive(false);
+            RenderSettings.skybox = matDream2;
+            dream2.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            fadein.SetActive(true);
+            fadeout.SetActive(false);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
+        }
+        IEnumerator SLEEP3(){
+            fadeout.SetActive(true); 
+            fadein.SetActive(false);
+            yield return new WaitForSeconds(5f);
+            reallife.SetActive(false);
+            RenderSettings.skybox = matDream3;
+            dream3.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            fadein.SetActive(true);
+            fadeout.SetActive(false);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Blanket moving", transform.position);
+        }
+        //Progression dreams 1, 2 and 3
+
+        if (ProgressionChart._instance.datacheck == true)
+        {
+            StartCoroutine(SLEEP1());
+            ProgressionChart._instance.datacheck = false;
+        }
+        if(ProgressionChart._instance.light >= 2)
+        {
+        StartCoroutine(SLEEP3());
+        ProgressionChart._instance.light = 0;
+        }
+        if (ProgressionChart._instance.SawLight)
+        {
+            StartCoroutine(SLEEP2());
+            ProgressionChart._instance.SawLight = false;
+        }
+        
+
+        StopCoroutine(SLEEP1());
+        StopCoroutine(SLEEP2());
+        StopCoroutine(SLEEP3());
+    }
+}

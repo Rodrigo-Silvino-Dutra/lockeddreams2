@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
         Vector3 move = transform.right * InputManager._instance.xzPlayer.x + transform.forward * InputManager._instance.xzPlayer.y;
         if(ProgressionChart._instance.isInteracting == false
         )controller.Move(move * speed  *Time.fixedDeltaTime);
+        
+        
 
         velocity.y += gravity * Time.fixedDeltaTime;
 

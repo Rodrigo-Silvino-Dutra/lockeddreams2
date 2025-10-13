@@ -20,7 +20,9 @@ public class Codemanager : MonoBehaviour
     {
         if(code.text == codetext)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Pen Writing", transform.position);
             dvpaper.SetActive(true);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/PaperSlide", transform.position);
             codetext = aaa;
         }
     }

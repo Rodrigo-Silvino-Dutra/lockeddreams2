@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class calander : MonoBehaviour
+public class calander : MonoBehaviour, IInteractable
 {
     [SerializeField] GameObject plaer;
     [SerializeField] GameObject cam;
-
     [SerializeField] TextMeshProUGUI text;
     private Vector3 ogPosition;
     // Start is called before the first frame update

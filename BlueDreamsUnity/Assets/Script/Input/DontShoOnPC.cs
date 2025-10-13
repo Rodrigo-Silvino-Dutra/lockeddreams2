@@ -7,9 +7,10 @@ public class DontShoOnPC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Application.platform == RuntimePlatform.Android)
+        if (Application.platform != RuntimePlatform.Android)
         {
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }

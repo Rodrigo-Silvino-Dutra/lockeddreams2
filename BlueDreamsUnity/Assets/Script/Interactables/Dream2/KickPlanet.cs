@@ -14,6 +14,7 @@ public class KickPlanet : MonoBehaviour, IInteractable
         if(collision.gameObject.CompareTag("Player"))
         {
             rigidbody.AddForce((gameObject.transform.position - player.position) * kickForce, ForceMode.Force);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/BallRolling", transform.position);
         }
     }
     public void OnFocusEnter()

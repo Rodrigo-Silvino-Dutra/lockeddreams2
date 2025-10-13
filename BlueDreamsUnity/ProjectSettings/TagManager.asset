@@ -3,17 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - jupiter
-  - Data
-  - Picard
-  - Worf
-  - Linux
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - WallAndGround
+  - 
   - Water
   - UI
   - 
