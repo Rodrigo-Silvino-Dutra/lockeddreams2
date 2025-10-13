@@ -82,11 +82,11 @@ public class InputManager : MonoBehaviour
     }
     public void OutInteract(InputAction.CallbackContext valueOutInteract)
     {
-        if(valueOutInteract.performed)
-        {
-            playerInteractables.OutInteractWithSubscribe();
-            Debug.Log("Clicou para sair");
-        }
+        // if(valueOutInteract.performed)
+        // {
+        //     playerInteractables.OutInteractWithSubscribe();
+        //     Debug.Log("Clicou par a sair");
+        // }
     }
         
 }

@@ -58,6 +58,7 @@ public class Padlock : MonoBehaviour, IInteractable
     }
     public void OnInteract()
     {
+        ProgressionChart._instance.isUsingRotateLock = true;
         transform.position = camera.transform.position + camera.transform.forward * 0.2f;
         player.GetComponent<PlayerController>().enabled = false; 
         GetComponent<BoxCollider>().enabled = false;
@@ -78,5 +79,6 @@ public class Padlock : MonoBehaviour, IInteractable
             player.GetComponent<PlayerController>().enabled = true; 
             GetComponent<BoxCollider>().enabled = true;
         }
+        ProgressionChart._instance.isUsingRotateLock = false;        
     }
 }

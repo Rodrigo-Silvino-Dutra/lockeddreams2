@@ -20,7 +20,6 @@ public class DrawKid : MonoBehaviour, IInteractable
     public void OnInteract()
     {
         draw.SetActive(true);
-
     }
 }
 

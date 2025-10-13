@@ -37,14 +37,31 @@ public class PlayerInteractables : MonoBehaviour
     }
     public void InteractWithSubscribe() 
     {
-        if (currentInteractable != null) ProgressionChart._instance.lastInteractable.Push(currentInteractable);
-        currentInteractable?.OnInteract();
+        if (currentInteractable != null && !ProgressionChart._instance.usedInteractable) 
+        {
+            ProgressionChart._instance.lastInteractable.Push(currentInteractable);
+            currentInteractable?.OnInteract();
+            ProgressionChart._instance.usedInteractable = true;
+            if(ProgressionChart._instance.isUsingRotateLock)
+            {
+                ProgressionChart._instance.usedInteractable = false;
+                ProgressionChart._instance.lastInteractable.Pop();
+                return;
+            }
+            return;
+        }
+        if(ProgressionChart._instance.lastInteractable.Peek() != null && ProgressionChart._instance.usedInteractable)
+        {
+            ProgressionChart._instance.lastInteractable.Peek()?.OnFocusExit();
+            ProgressionChart._instance.lastInteractable.Pop();  
+            ProgressionChart._instance.usedInteractable = false;
+        }
     }
-    public void OutInteractWithSubscribe()
-    {
-        if (currentInteractable != null) Debug.Log("Existe e saindo da interacao");
-        ProgressionChart._instance.lastInteractable.Peek()?.OnFocusExit();
-        ProgressionChart._instance.lastInteractable.Pop();
+    // public void OutInteractWithSubscribe()
+    // {
+    //     if (currentInteractable != null) Debug.Log("Existe e saindo da interacao");
+    //     ProgressionChart._instance.lastInteractable.Peek()?.OnFocusExit();
+    //     ProgressionChart._instance.lastInteractable.Pop();
 
-    }
+    // }
 }

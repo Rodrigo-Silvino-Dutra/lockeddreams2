@@ -11,6 +11,8 @@ public class ProgressionChart : MonoBehaviour
     public bool datacheck = false;
     public bool SawLight = false;
     public bool dream1 = false;
+    public bool usedInteractable = false;
+    public bool isUsingRotateLock = false;
     public bool dream2 = false;
     public bool dream3 = false;
 

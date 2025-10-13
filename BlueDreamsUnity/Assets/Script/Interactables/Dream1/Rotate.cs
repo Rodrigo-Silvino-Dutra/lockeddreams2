@@ -22,7 +22,9 @@ public class Rotate : MonoBehaviour, IInteractable
         if (coroutineAllowed)
         {
             StartCoroutine("RotateWheel");
+            ProgressionChart._instance.isUsingRotateLock = true;
         }
+
     }
 
     private IEnumerator RotateWheel()
