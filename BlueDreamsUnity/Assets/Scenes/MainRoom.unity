@@ -24447,6 +24447,8 @@ MonoBehaviour:
   datacheck: 0
   SawLight: 0
   dream1: 0
+  usedInteractable: 0
+  isUsingRotateLock: 1
   dream2: 0
   dream3: 0
 --- !u!1001 &2115390376
