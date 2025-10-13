@@ -1,0 +1,2019 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
+--- !u!114 &-9136406572405198060
+=======
+--- !u!114 &-8944320676409269284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Put_Figure
+  m_EditorClassIdentifier: 
+  Path: event:/Put_Figure
+  Guid:
+    Data1: 538583901
+    Data2: 1101695985
+    Data3: 1073609919
+    Data4: -1182494630
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62
+--- !u!114 &-8938775676154079307
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Blanket moving
+  m_EditorClassIdentifier: 
+  Path: event:/Blanket moving
+  Guid:
+    Data1: 1183351887
+    Data2: 1148043769
+    Data3: -1029929537
+    Data4: 115358503
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+<<<<<<< Updated upstream
+  Length: 2300
+--- !u!114 &-8911271094809279562
+=======
+  Length: 380
+--- !u!114 &-8543273248930812268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PaperSlide
+  m_EditorClassIdentifier: 
+  Path: event:/PaperSlide
+  Guid:
+    Data1: -1567290120
+    Data2: 1172376970
+    Data3: 234973327
+    Data4: 1817006388
+  Banks:
+  - {fileID: 8598675984631090864}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 411
+--- !u!114 &-8485609118189585827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpaceShip_Lauching
+  m_EditorClassIdentifier: 
+  Path: event:/SpaceShip_Lauching
+  Guid:
+    Data1: -275778353
+    Data2: 1321356778
+    Data3: 1007349140
+    Data4: 664285591
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14100
+--- !u!114 &-8315867654848977777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Clock
+  m_EditorClassIdentifier: 
+  Path: event:/Clock
+  Guid:
+    Data1: -1049452172
+    Data2: 1328326739
+    Data3: 625134742
+    Data4: 344732700
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-8277466477274422205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638923150190399358
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &-8128827978489006193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Book_Close
+  m_EditorClassIdentifier: 
+  Path: event:/Book_Close
+  Guid:
+    Data1: 280335005
+    Data2: 1146539355
+    Data3: -2128010355
+    Data4: -41796948
+  Banks:
+  - {fileID: 8598675984631090864}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 983
+--- !u!114 &-6760366323980547231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Blanket moving
+  m_EditorClassIdentifier: 
+  Path: event:/Blanket moving
+  Guid:
+    Data1: 1183351887
+    Data2: 1148043769
+    Data3: -1029929537
+    Data4: 115358503
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2300
+--- !u!114 &-6090721240881409640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Put_Figure
+  m_EditorClassIdentifier: 
+  Path: event:/Put_Figure
+  Guid:
+    Data1: 538583901
+    Data2: 1101695985
+    Data3: 1073609919
+    Data4: -1182494630
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62
+--- !u!114 &-5395196416705018257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drawer
+  m_EditorClassIdentifier: 
+  Path: event:/Drawer
+  Guid:
+    Data1: 762936118
+    Data2: 1116761880
+    Data3: -929568322
+    Data4: -8377546
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1866
+--- !u!114 &-5348170058086066486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Air
+  m_EditorClassIdentifier: 
+  Path: event:/Air
+  Guid:
+    Data1: 1824606582
+    Data2: 1154133360
+    Data3: -774173554
+    Data4: -1202650566
+  Banks:
+  - {fileID: 5838942873420271370}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3527
+--- !u!114 &-5127583782419297712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PaperSlide
+  m_EditorClassIdentifier: 
+  Path: event:/PaperSlide
+  Guid:
+    Data1: -1567290120
+    Data2: 1172376970
+    Data3: 234973327
+    Data4: 1817006388
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 411
+--- !u!114 &-5086431302214452077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CatchPaper
+  m_EditorClassIdentifier: 
+  Path: event:/CatchPaper
+  Guid:
+    Data1: -873799472
+    Data2: 1087682739
+    Data3: 544571279
+    Data4: 343262975
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 550
+--- !u!114 &-4871551260192071536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOn
+  Guid:
+    Data1: -1620870839
+    Data2: 1122855697
+    Data3: -509753192
+    Data4: -287535500
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13783
+--- !u!114 &-4659696491900259837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CatchBook
+  m_EditorClassIdentifier: 
+  Path: event:/CatchBook
+  Guid:
+    Data1: -911383766
+    Data2: 1243216780
+    Data3: -787670897
+    Data4: 1508025342
+  Banks:
+  - {fileID: 8598675984631090864}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 280
+--- !u!114 &-4651901143715591096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BallRolling
+  m_EditorClassIdentifier: 
+  Path: event:/BallRolling
+  Guid:
+    Data1: -1701656323
+    Data2: 1267546043
+    Data3: -418986579
+    Data4: -1943387905
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 733
+--- !u!114 &-4272322012737829444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638953112992440529
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &-4265198706530355470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOn
+  Guid:
+    Data1: -1620870839
+    Data2: 1122855697
+    Data3: -509753192
+    Data4: -287535500
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13783
+--- !u!114 &-4092186299329289700
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Clock
+  m_EditorClassIdentifier: 
+  Path: event:/Clock
+  Guid:
+    Data1: -1049452172
+    Data2: 1328326739
+    Data3: 625134742
+    Data4: 344732700
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8400
+<<<<<<< Updated upstream
+--- !u!114 &-8277466477274422205
+=======
+--- !u!114 &-3393592289804862476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 1.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 1.bank
+  Name: Dream 1
+  StudioPath: bank:/Dream 1
+  lastModified: 638953112984478669
+  FileSizes:
+  - Name: Desktop
+    Value: 331648
+  Exists: 1
+--- !u!114 &-3084081455156343752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Room.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Room.bank
+  Name: Room
+  StudioPath: bank:/Room
+  lastModified: 638953113001363350
+  FileSizes:
+  - Name: Desktop
+    Value: 617568
+  Exists: 1
+--- !u!114 &-2868705023221015749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pen Writing
+  m_EditorClassIdentifier: 
+  Path: event:/Pen Writing
+  Guid:
+    Data1: 1283302750
+    Data2: 1152202388
+    Data3: -1600988784
+    Data4: 1081437382
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1620
+--- !u!114 &-2298299613058186033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638923150190429279
+  FileSizes:
+  - Name: Desktop
+    Value: 724
+  Exists: 1
+--- !u!114 &-2286091347153152295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Padlock
+  m_EditorClassIdentifier: 
+  Path: event:/Padlock
+  Guid:
+    Data1: -676224710
+    Data2: 1160176855
+    Data3: -119287361
+    Data4: -1055352710
+  Banks:
+  - {fileID: 8986252924478156056}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-1913834794846895630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CatchBook
+  m_EditorClassIdentifier: 
+  Path: event:/CatchBook
+  Guid:
+    Data1: -911383766
+    Data2: 1243216780
+    Data3: -787670897
+    Data4: 1508025342
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 280
+--- !u!114 &-1469641469056697206
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638953028222042480
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &-7857382243309778978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puting_Book
+  m_EditorClassIdentifier: 
+  Path: event:/Puting_Book
+  Guid:
+    Data1: 1384309632
+    Data2: 1280297971
+    Data3: -1509568845
+    Data4: -491942516
+  Banks:
+  - {fileID: 2691332416966183848}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
+--- !u!114 &-7394560354905329137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC_turnOff
+  m_EditorClassIdentifier: 
+  Path: event:/PC_turnOff
+  Guid:
+    Data1: -1064913975
+    Data2: 1237159180
+    Data3: -350779973
+    Data4: 1014294068
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9487
+--- !u!114 &-6697445637514457900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Switch
+  m_EditorClassIdentifier: 
+  Path: event:/Switch
+  Guid:
+    Data1: -2072527395
+    Data2: 1170420634
+    Data3: 1649108867
+    Data4: 1706873933
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 380
+--- !u!114 &-6568200977363889994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pen Writing
+  m_EditorClassIdentifier: 
+  Path: event:/Pen Writing
+  Guid:
+    Data1: 1283302750
+    Data2: 1152202388
+    Data3: -1600988784
+    Data4: 1081437382
+  Banks:
+  - {fileID: 2691332416966183848}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1620
+<<<<<<< Updated upstream
+--- !u!114 &-6016986334085057099
+=======
+--- !u!114 &-488154536101737674
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
+  m_Name: event:/CatchBook
+  m_EditorClassIdentifier: 
+  Path: event:/CatchBook
+  Guid:
+    Data1: -911383766
+    Data2: 1243216780
+    Data3: -787670897
+    Data4: 1508025342
+  Banks:
+  - {fileID: 2691332416966183848}
+=======
+  m_Name: event:/Switch
+  m_EditorClassIdentifier: 
+  Path: event:/Switch
+  Guid:
+    Data1: -2072527395
+    Data2: 1170420634
+    Data3: 1649108867
+    Data4: 1706873933
+  Banks:
+  - {fileID: -3084081455156343752}
+>>>>>>> Stashed changes
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+<<<<<<< Updated upstream
+  Length: 280
+--- !u!114 &-4408769385659713762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Air
+  m_EditorClassIdentifier: 
+  Path: event:/Air
+  Guid:
+    Data1: 1824606582
+    Data2: 1154133360
+    Data3: -774173554
+    Data4: -1202650566
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3527
+--- !u!114 &-4249623009775327916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Foot Step
+  m_EditorClassIdentifier: 
+  Path: event:/Foot Step
+  Guid:
+    Data1: -188240658
+    Data2: 1292203732
+    Data3: -1328444282
+    Data4: -172370417
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
+--- !u!114 &-4225529523253259931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Padlock
+  m_EditorClassIdentifier: 
+  Path: event:/Padlock
+  Guid:
+    Data1: -676224710
+    Data2: 1160176855
+    Data3: -119287361
+    Data4: -1055352710
+  Banks:
+  - {fileID: -1913630294507576467}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-2298299613058186033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638953028222052481
+  FileSizes:
+  - Name: Desktop
+    Value: 1830
+  Exists: 1
+--- !u!114 &-1913630294507576467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 1.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 1.bank
+  Name: Dream 1
+  StudioPath: bank:/Dream 1
+  lastModified: 638953028217783099
+  FileSizes:
+  - Name: Desktop
+    Value: 331648
+  Exists: 1
+--- !u!114 &-1908430673869022668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BallRolling
+  m_EditorClassIdentifier: 
+  Path: event:/BallRolling
+  Guid:
+    Data1: -1701656323
+    Data2: 1267546043
+    Data3: -418986579
+    Data4: -1943387905
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 733
+--- !u!114 &-1716923158878876581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpaceShip_Lauching
+  m_EditorClassIdentifier: 
+  Path: event:/SpaceShip_Lauching
+  Guid:
+    Data1: -275778353
+    Data2: 1321356778
+    Data3: 1007349140
+    Data4: 664285591
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14100
+--- !u!114 &-1303460340588981189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chest_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Chest_Open
+  Guid:
+    Data1: 1821672211
+    Data2: 1140715735
+    Data3: -572045675
+    Data4: -993843026
+  Banks:
+  - {fileID: -1913630294507576467}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1392
+=======
+  Length: 380
+>>>>>>> Stashed changes
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+<<<<<<< Updated upstream
+  - {fileID: -2298299613058186033}
+  - {fileID: -8277466477274422205}
+  - {fileID: -1913630294507576467}
+  - {fileID: 91835027219634594}
+  - {fileID: 2691332416966183848}
+  - {fileID: 6482844412840310790}
+  EditorEvents:
+  - {fileID: -1303460340588981189}
+  - {fileID: -4225529523253259931}
+  - {fileID: 2232426104799968729}
+  - {fileID: 8218812880150486639}
+  - {fileID: 6373242420939841637}
+  - {fileID: 8708508686269031954}
+  - {fileID: -1716923158878876581}
+  - {fileID: -1908430673869022668}
+  - {fileID: -6016986334085057099}
+  - {fileID: -6568200977363889994}
+  - {fileID: -7857382243309778978}
+  - {fileID: 4403518881219569991}
+  - {fileID: 606812002802447809}
+  - {fileID: 1131701911858848603}
+  - {fileID: -9136406572405198060}
+  - {fileID: -8911271094809279562}
+  - {fileID: -4408769385659713762}
+  - {fileID: 6165950847388328737}
+  - {fileID: -7394560354905329137}
+  - {fileID: -6697445637514457900}
+  - {fileID: -4249623009775327916}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -8277466477274422205}
+  StringsBanks:
+  - {fileID: -2298299613058186033}
+=======
+  - {fileID: 2265286234308351946}
+  - {fileID: -3393592289804862476}
+  - {fileID: 3501333101709061553}
+  - {fileID: 1738031297776586063}
+  - {fileID: -4272322012737829444}
+  - {fileID: -3084081455156343752}
+  EditorEvents:
+  - {fileID: 1749314058353278390}
+  - {fileID: 6500344305734106461}
+  - {fileID: 1420072824111029294}
+  - {fileID: 4946881927332186892}
+  - {fileID: -4265198706530355470}
+  - {fileID: -8944320676409269284}
+  - {fileID: 7485604759110314262}
+  - {fileID: 6278092777083759949}
+  - {fileID: -1913834794846895630}
+  - {fileID: -2868705023221015749}
+  - {fileID: 4968626288708293745}
+  - {fileID: 7752583201754141645}
+  - {fileID: -5086431302214452077}
+  - {fileID: -5127583782419297712}
+  - {fileID: -6760366323980547231}
+  - {fileID: -8315867654848977777}
+  - {fileID: 5638737515518346651}
+  - {fileID: 6630249728574368980}
+  - {fileID: 1600176876003904967}
+  - {fileID: -488154536101737674}
+  - {fileID: 3837976409175609849}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4272322012737829444}
+  StringsBanks:
+  - {fileID: 2265286234308351946}
+>>>>>>> Stashed changes
+  cacheVersion: 131849
+  cacheTime: 638953113001363350
+  SerializableEventsDict:
+  - key: event:/Chest_Open
+    index: 0
+  - key: event:/Padlock
+    index: 1
+  - key: event:/Old_PC_turnOff
+    index: 2
+  - key: event:/Drawer
+    index: 3
+  - key: event:/Old_PC_turnOn
+    index: 4
+  - key: event:/Put_Figure
+    index: 5
+  - key: event:/SpaceShip_Lauching
+    index: 6
+  - key: event:/BallRolling
+    index: 7
+  - key: event:/CatchBook
+    index: 8
+  - key: event:/Pen Writing
+    index: 9
+  - key: event:/Puting_Book
+    index: 10
+  - key: event:/Book_Close
+    index: 11
+  - key: event:/CatchPaper
+    index: 12
+  - key: event:/PaperSlide
+    index: 13
+  - key: event:/Blanket moving
+    index: 14
+  - key: event:/Clock
+    index: 15
+  - key: event:/Air
+    index: 16
+  - key: event:/PC_turnOn
+    index: 17
+  - key: event:/PC_turnOff
+    index: 18
+  - key: event:/Switch
+    index: 19
+  - key: event:/Foot Step
+    index: 20
+<<<<<<< Updated upstream
+--- !u!114 &91835027219634594
+=======
+--- !u!114 &1420072824111029294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOff
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOff
+  Guid:
+    Data1: 257384713
+    Data2: 1279360848
+    Data3: -1603490377
+    Data4: 1674285623
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
+--- !u!114 &1600176876003904967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC_turnOff
+  m_EditorClassIdentifier: 
+  Path: event:/PC_turnOff
+  Guid:
+    Data1: -1064913975
+    Data2: 1237159180
+    Data3: -350779973
+    Data4: 1014294068
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9487
+--- !u!114 &1738031297776586063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 3.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 3.bank
+  Name: Dream 3
+  StudioPath: bank:/Dream 3
+  lastModified: 638953112992359980
+  FileSizes:
+  - Name: Desktop
+    Value: 102752
+  Exists: 1
+--- !u!114 &1749314058353278390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chest_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Chest_Open
+  Guid:
+    Data1: 1821672211
+    Data2: 1140715735
+    Data3: -572045675
+    Data4: -993843026
+  Banks:
+  - {fileID: -3393592289804862476}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1392
+--- !u!114 &1796580529762858614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOff
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOff
+  Guid:
+    Data1: 257384713
+    Data2: 1279360848
+    Data3: -1603490377
+    Data4: 1674285623
+  Banks:
+  - {fileID: 8847417206004105934}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
+--- !u!114 &2265286234308351946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638953112992471172
+  FileSizes:
+  - Name: Desktop
+    Value: 1830
+  Exists: 1
+--- !u!114 &3501333101709061553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 2.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 2.bank
+  Name: Dream 2
+  StudioPath: bank:/Dream 2
+  lastModified: 638953112990507795
+  FileSizes:
+  - Name: Desktop
+    Value: 410784
+  Exists: 1
+--- !u!114 &3818304017833884748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638953028222052481
+  FileSizes:
+  - Name: Desktop
+    Value: 1830
+  Exists: 1
+--- !u!114 &3837976409175609849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Foot Step
+  m_EditorClassIdentifier: 
+  Path: event:/Foot Step
+  Guid:
+    Data1: -188240658
+    Data2: 1292203732
+    Data3: -1328444282
+    Data4: -172370417
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
+--- !u!114 &4946881927332186892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drawer
+  m_EditorClassIdentifier: 
+  Path: event:/Drawer
+  Guid:
+    Data1: 762936118
+    Data2: 1116761880
+    Data3: -929568322
+    Data4: -8377546
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1866
+--- !u!114 &4968626288708293745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Puting_Book
+  m_EditorClassIdentifier: 
+  Path: event:/Puting_Book
+  Guid:
+    Data1: 1384309632
+    Data2: 1280297971
+    Data3: -1509568845
+    Data4: -491942516
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 540
+--- !u!114 &5393493880256252633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Foot Step
+  m_EditorClassIdentifier: 
+  Path: event:/Foot Step
+  Guid:
+    Data1: -188240658
+    Data2: 1292203732
+    Data3: -1328444282
+    Data4: -172370417
+  Banks:
+  - {fileID: 5838942873420271370}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
+--- !u!114 &5638737515518346651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Air
+  m_EditorClassIdentifier: 
+  Path: event:/Air
+  Guid:
+    Data1: 1824606582
+    Data2: 1154133360
+    Data3: -774173554
+    Data4: -1202650566
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3527
+--- !u!114 &5838942873420271370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Room.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Room.bank
+  Name: Room
+  StudioPath: bank:/Room
+  lastModified: 638953028226987039
+  FileSizes:
+  - Name: Desktop
+    Value: 617568
+  Exists: 1
+--- !u!114 &6118345279143132072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/PC_turnOn
+  Guid:
+    Data1: -941936457
+    Data2: 1206797851
+    Data3: -1377677910
+    Data4: -259945159
+  Banks:
+  - {fileID: 5838942873420271370}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13900
+--- !u!114 &6278092777083759949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BallRolling
+  m_EditorClassIdentifier: 
+  Path: event:/BallRolling
+  Guid:
+    Data1: -1701656323
+    Data2: 1267546043
+    Data3: -418986579
+    Data4: -1943387905
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 733
+--- !u!114 &6500344305734106461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Padlock
+  m_EditorClassIdentifier: 
+  Path: event:/Padlock
+  Guid:
+    Data1: -676224710
+    Data2: 1160176855
+    Data3: -119287361
+    Data4: -1055352710
+  Banks:
+  - {fileID: -3393592289804862476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6630249728574368980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/PC_turnOn
+  Guid:
+    Data1: -941936457
+    Data2: 1206797851
+    Data3: -1377677910
+    Data4: -259945159
+  Banks:
+  - {fileID: -3084081455156343752}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13900
+--- !u!114 &7115288002126861932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Blanket moving
+  m_EditorClassIdentifier: 
+  Path: event:/Blanket moving
+  Guid:
+    Data1: 1183351887
+    Data2: 1148043769
+    Data3: -1029929537
+    Data4: 115358503
+  Banks:
+  - {fileID: 5838942873420271370}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2300
+--- !u!114 &7342900486607782513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chest_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Chest_Open
+  Guid:
+    Data1: 1821672211
+    Data2: 1140715735
+    Data3: -572045675
+    Data4: -993843026
+  Banks:
+  - {fileID: 8986252924478156056}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1392
+--- !u!114 &7485604759110314262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpaceShip_Lauching
+  m_EditorClassIdentifier: 
+  Path: event:/SpaceShip_Lauching
+  Guid:
+    Data1: -275778353
+    Data2: 1321356778
+    Data3: 1007349140
+    Data4: 664285591
+  Banks:
+  - {fileID: 3501333101709061553}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14100
+--- !u!114 &7752583201754141645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Book_Close
+  m_EditorClassIdentifier: 
+  Path: event:/Book_Close
+  Guid:
+    Data1: 280335005
+    Data2: 1146539355
+    Data3: -2128010355
+    Data4: -41796948
+  Banks:
+  - {fileID: 1738031297776586063}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 983
+--- !u!114 &8598675984631090864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 3.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 3.bank
+  Name: Dream 3
+  StudioPath: bank:/Dream 3
+  lastModified: 638953028222002452
+  FileSizes:
+  - Name: Desktop
+    Value: 102752
+  Exists: 1
+--- !u!114 &8847417206004105934
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 2.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 2.bank
+  Name: Dream 2
+  StudioPath: bank:/Dream 2
+  lastModified: 638953028220849685
+  FileSizes:
+  - Name: Desktop
+    Value: 410784
+  Exists: 1
+--- !u!114 &606812002802447809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CatchPaper
+  m_EditorClassIdentifier: 
+  Path: event:/CatchPaper
+  Guid:
+    Data1: -873799472
+    Data2: 1087682739
+    Data3: 544571279
+    Data4: 343262975
+  Banks:
+  - {fileID: 2691332416966183848}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 550
+--- !u!114 &1131701911858848603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PaperSlide
+  m_EditorClassIdentifier: 
+  Path: event:/PaperSlide
+  Guid:
+    Data1: -1567290120
+    Data2: 1172376970
+    Data3: 234973327
+    Data4: 1817006388
+  Banks:
+  - {fileID: 2691332416966183848}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 411
+--- !u!114 &2232426104799968729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOff
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOff
+  Guid:
+    Data1: 257384713
+    Data2: 1279360848
+    Data3: -1603490377
+    Data4: 1674285623
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
+--- !u!114 &2691332416966183848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dream 3.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Dream 3.bank
+  Name: Dream 3
+  StudioPath: bank:/Dream 3
+  lastModified: 638953028222002452
+  FileSizes:
+  - Name: Desktop
+    Value: 102752
+  Exists: 1
+--- !u!114 &4403518881219569991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Book_Close
+  m_EditorClassIdentifier: 
+  Path: event:/Book_Close
+  Guid:
+    Data1: 280335005
+    Data2: 1146539355
+    Data3: -2128010355
+    Data4: -41796948
+  Banks:
+  - {fileID: 2691332416966183848}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 983
+--- !u!114 &6165950847388328737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/PC_turnOn
+  Guid:
+    Data1: -941936457
+    Data2: 1206797851
+    Data3: -1377677910
+    Data4: -259945159
+  Banks:
+  - {fileID: 6482844412840310790}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13900
+--- !u!114 &6373242420939841637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Old_PC_turnOn
+  m_EditorClassIdentifier: 
+  Path: event:/Old_PC_turnOn
+  Guid:
+    Data1: -1620870839
+    Data2: 1122855697
+    Data3: -509753192
+    Data4: -287535500
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13783
+--- !u!114 &6482844412840310790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Room.bank
+  m_EditorClassIdentifier: 
+  Path: ../BlueDreamsFmodPro/Build/Desktop/Room.bank
+  Name: Room
+  StudioPath: bank:/Room
+  lastModified: 638953028226987039
+  FileSizes:
+  - Name: Desktop
+    Value: 617568
+  Exists: 1
+--- !u!114 &8218812880150486639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drawer
+  m_EditorClassIdentifier: 
+  Path: event:/Drawer
+  Guid:
+    Data1: 762936118
+    Data2: 1116761880
+    Data3: -929568322
+    Data4: -8377546
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1866
+--- !u!114 &8708508686269031954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Put_Figure
+  m_EditorClassIdentifier: 
+  Path: event:/Put_Figure
+  Guid:
+    Data1: 538583901
+    Data2: 1101695985
+    Data3: 1073609919
+    Data4: -1182494630
+  Banks:
+  - {fileID: 91835027219634594}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62
