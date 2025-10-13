@@ -476,8 +476,13 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Dream 1
+  - Dream 2
+  - Dream 3
+  - Room
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
