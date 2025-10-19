@@ -9,6 +9,7 @@ public class BasePlanet : MonoBehaviour
     [SerializeField] private GameObject worf;
     void OnCollisionEnter(Collision collision)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Leviation", transform.position);
         if (collision.gameObject.CompareTag("jupiter"))
         {
             Debug.Log("Entrou no Range");

@@ -30,7 +30,7 @@ public class MoveDrawer : MonoBehaviour, IInteractable
     private void ToggleDrawer()
     {
         isOpen = !isOpen;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Drawer", transform.position);
+        
         if (currentCoroutine != null)
             StopCoroutine(currentCoroutine);
 
@@ -39,10 +39,12 @@ public class MoveDrawer : MonoBehaviour, IInteractable
 
     private IEnumerator Move(bool open)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Drawer", transform.position);
         float targetX = open ? openX : closedX;
 
         while (Mathf.Abs(transform.localPosition.x - targetX) > 0.001f)
         {
+            
             Vector3 pos = transform.localPosition;
             pos.x = Mathf.MoveTowards(pos.x, targetX, speed * Time.deltaTime);
             transform.localPosition = pos;

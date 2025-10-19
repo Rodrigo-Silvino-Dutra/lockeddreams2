@@ -22,11 +22,13 @@ public class CdTray : MonoBehaviour
             // interrompe qualquer animação anterior
             if (currentCoroutine != null) StopCoroutine(currentCoroutine);
             currentCoroutine = StartCoroutine(MoveTo(targetPosition));
+
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+     FMODUnity.RuntimeManager.PlayOneShot("event:/ClosingCDCase", transform.position);
         if (other.CompareTag("Player"))
         {
             if (currentCoroutine != null) StopCoroutine(currentCoroutine);

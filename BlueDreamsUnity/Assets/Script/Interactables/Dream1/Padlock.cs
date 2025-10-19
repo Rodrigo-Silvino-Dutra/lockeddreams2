@@ -17,7 +17,7 @@ public class Padlock : MonoBehaviour, IInteractable
         
         originPosition = transform.position;
         result = new int[]{0,0,0};
-        correctCombination = new int[] {2,2,7};
+        correctCombination = new int[] {2,8,7};
         isOpened = false;
         Rotate.Rotated += CheckResults;
     }

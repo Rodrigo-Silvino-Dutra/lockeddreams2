@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9c84b428-22f8-46c2-a7ec-24f172b4cb84}">
+		<property name="assetPath">
+			<value>cartoon-style-flying-saucer-sound-257591.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>19.408979591836733</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{65049221-749a-4b57-9089-1141970d0ba8}</destination>
+		</relationship>
+	</object>
+</objects>

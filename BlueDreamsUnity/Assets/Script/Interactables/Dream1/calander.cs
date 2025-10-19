@@ -19,7 +19,7 @@ public class calander : MonoBehaviour, IInteractable
 
     public void OnInteract() 
     {
-        transform.position = cam.transform.position + cam.transform.forward * 0.2f;
+        transform.position = cam.transform.position + cam.transform.forward;
         plaer.GetComponent<PlayerController>().enabled = false;
         cam.GetComponent<MoveCam>().enabled = false;
 
