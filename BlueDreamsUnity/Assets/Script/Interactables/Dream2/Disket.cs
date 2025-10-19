@@ -19,6 +19,7 @@ public class Disket : MonoBehaviour, IInteractable
         transform.SetParent(null);
         rb.isKinematic = false;
         ProgressionDream2._instance.isHoldingCD = false;
+        ProgressionChart._instance.usedInteractable = false;
     }
     public void OnInteract()
     {
@@ -28,6 +29,7 @@ public class Disket : MonoBehaviour, IInteractable
             ProgressionDream2._instance.isHoldingCD = true;
             gameObject.transform.position = holdingObject.position;
             gameObject.transform.SetParent(holdingObject, true);
+            ProgressionChart._instance.usedInteractable = true;
         }
         else
         {
